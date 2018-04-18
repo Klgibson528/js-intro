@@ -98,3 +98,22 @@
 //   }
 //   console.log(arr.join(''));
 // }
+
+//Long-long Vowels
+function longVowels(str) {
+  count = 0;
+  while (count < str.length) {
+    count += 1;
+    if (str[i] == str[i + 1]) {
+      console.log(str[i].repeat(5));
+    }
+  }
+}
+
+// //Just the Positives
+// function positiveNumbers(arr) {
+//   var new_arr = arr.filter(function(n) {
+//     return n > 0;
+//   });
+//   console.log(new_arr);
+// }
