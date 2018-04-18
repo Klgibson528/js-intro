@@ -99,16 +99,12 @@
 //   console.log(arr.join(''));
 // }
 
-//Long-long Vowels
-function longVowels(str) {
-  count = 0;
-  while (count < str.length) {
-    count += 1;
-    if (str[i] == str[i + 1]) {
-      console.log(str[i].repeat(5));
-    }
-  }
-}
+// //Long-long Vowels
+// function longLongVowels(aWord) {
+//   aWord = aWord.replace(/oo/, "o".repeat(5));
+//   aWord = aWord.replace(/ee/, "e".repeat(5));
+//   console.log(aWord);
+// }
 
 // //Just the Positives
 // function positiveNumbers(arr) {
